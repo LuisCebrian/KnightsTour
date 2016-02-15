@@ -23,7 +23,7 @@ list<position> possiblePositionsSorted(vector<position> & moves, vector<vector<i
 
 int main(int argc, char **argv) {
 
-	printf("Welcome to the knight's tour resolutioner. Firstly, type de size of the square board as a number\n");
+	printf("Welcome to the knight's tour problem. Firstly, type de size of the square board as a number\n");
 	int size = 0;
 	while (size < 5) {
 		cin >> size;
